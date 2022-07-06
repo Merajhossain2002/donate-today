@@ -178,25 +178,58 @@ body {
 }
 /* Donate Plan Area CSS END */
 
-/* Email updates form area CSS */
+/* Corporate doners Section CSS */
 
-.email-update-input-box{
+.corporate-doners-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 70px 0px;
+}
+.corporate-doners-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.corporate-doners-image-box {
+  width: 170px;
+  height: 170px;
+}
+.corporate-doners-img {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+}
+#all-company-button {
+  width: 250px;
+}
+/* Corporate doners Section CSS END */
+
+/* Email updates form area CSS */
+#get-email-update-area {
+  background-color: #f8f8f8;
+}
+
+.email-update-input-box {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 1000px;
   height: 250px;
   margin-top: 50px;
-  background: #FFF4D6;
+  background: #fff4d6;
 }
-.email-input{
+.email-input {
   width: 450px;
-  height:34px;
+  height: 34px;
   border-radius: 5px 0px 0px 5px;
 }
-.email-subscribe{
+.email-subscribe {
   width: 150px;
-  height:30px;
+  height: 30px;
   color: #ffffff;
   font-size: 16px;
   font-family: "Roboto Slab", serif;
@@ -208,4 +241,24 @@ body {
   border: none;
   border-radius: 0px 5px 5px 0px;
 }
-/* Email updates form area CSS */
+/* Email updates form area CSS END*/
+
+/* Footer CSS Area */
+
+footer {
+  width: 100%;
+  height: 180px;
+  background-color: #0b0d17;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+footer h1 {
+  color: #ff5959;
+  font-size: 45px;
+  font-family: "Lora", serif;
+  font-weight: 700;
+}
+/* Footer CSS Area END */
